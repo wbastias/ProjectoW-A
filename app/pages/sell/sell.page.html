@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="goHome()">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Vende y Gana</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="sell-content">
+  <!-- Buscador -->
+  <ion-searchbar [(ngModel)]="searchText" [debounce]="500" placeholder="Buscar productos..." (ionInput)="filterProducts()" class="search-bar"></ion-searchbar>
+
+  <!-- Lista de Productos -->
+  <ion-grid>
+    <ion-row *ngFor="let pair of groupedProducts">
+      <ion-col size="6" *ngFor="let product of pair" (click)="openProductDetails(product)">
+        <ion-card>
+          <img [src]="product.imagen" />
+          <ion-card-content>
+            <ion-card-subtitle>{{ product.nombre }}</ion-card-subtitle>
+            <ion-card-title> ${{ product.precio }}</ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

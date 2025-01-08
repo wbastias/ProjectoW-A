@@ -1,0 +1,394 @@
+[
+    {
+        "id": 1,
+        "nombre": "10 x botella de vidrio de 250 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-expres.jpg",
+        "precio": "1000"
+    },
+    {
+        "id": 2,
+        "nombre": "10 x botella de vidrio de 330 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-330.jpg",
+        "precio": "1100"
+    },
+    {
+        "id": 3,
+        "nombre": "10 x botella de vidrio de 500 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-500.jpg",
+        "precio": "1500"
+    },
+    {
+        "id": 4,
+        "nombre": "10 x botella de vidrio de 750 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-750.jpg",
+        "precio": "1900"
+    },
+    {
+        "id": 5,
+        "nombre": "10 x botella de vidrio de 1000 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-litro.jpg",
+        "precio": "2200"
+    },
+    {
+        "id": 6,
+        "nombre": "10 x botella de vidrio de vino 1000 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vino-litro.jpg",
+        "precio": "2500"
+    },
+    {
+        "id": 7,
+        "nombre": "10 x botella de vidrio aceite de 250 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-aceite-250.jpg",
+        "precio": "1800"
+    },
+    {
+        "id": 8,
+        "nombre": "10 x botella de vidrio aceite de 500 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-aceite-500.jpg",
+        "precio": "2500"
+    },
+    {
+        "id": 9,
+        "nombre": "10 x botella de vidrio de 1000 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-aceite-litro.jpg",
+        "precio": "3000"
+    },
+    {
+        "id": 10,
+        "nombre": "10 x envase de crema lata",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-crema-laa.jpg",
+        "precio": "1000"
+    },
+    {
+        "id": 11,
+        "nombre": "10 x envase de crema 200ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-crema-tubo.jpg",
+        "precio": "1200"
+    },
+    {
+        "id": 12,
+        "nombre": "10 x envase de crema 500ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-crema-750.jpg",
+        "precio": "1800"
+    },
+    {
+        "id": 13,
+        "nombre": "10 x envase de detergente 3lt",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-detergente.jpg",
+        "precio": "900"
+    },
+    {
+        "id": 14,
+        "nombre": "10 x envase de jarabe",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-jarabe.jpg",
+        "precio": "500"
+    },
+    {
+        "id": 15,
+        "nombre": "10 x envase de remedio",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-remedio.jpg",
+        "precio": "800"
+    },
+    {
+        "id": 16,
+        "nombre": "10 x envase de shampoo con dosificador",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-shampoo.jpg",
+        "precio": "1200"
+    },
+    {
+        "id": 17,
+        "nombre": "10 x envase de shampoo de 100ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-shampoo-100.jpg",
+        "precio": "800"
+    },
+    {
+        "id": 18,
+        "nombre": "10 x frasco de perfume de 30 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-30.jpg",
+        "precio": "1500"
+    },
+    {
+        "id": 19,
+        "nombre": "10 x frasco de perfume de 50 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-50.jpg",
+        "precio": "1800"
+    },
+    {
+        "id": 20,
+        "nombre": "10 x frasco de perfume de 100 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-100.jpg",
+        "precio": "2200"
+    },
+    {
+        "id": 21,
+        "nombre": "10 x frasco de perfume de 200 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-200.jpg",
+        "precio": "2500"
+    },
+    {
+        "id": 22,
+        "nombre": "10 x frasco de serum de 30 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-serum.jpg",
+        "precio": "1500"
+    },
+    {
+        "id": 23,
+        "nombre": "10 x frasco de vidrio 50 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-50.jpg",
+        "precio": "1500"
+    },
+    {
+        "id": 24,
+        "nombre": "10 x frasco de vidrio 100 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-100.jpg",
+        "precio": "1700"
+    },
+    {
+        "id": 25,
+        "nombre": "10 x frasco de vidrio 250 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-250.jpg",
+        "precio": "2300"
+    },
+    {
+        "id": 26,
+        "nombre": "10 x frasco de vidrio 500 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-500.jpg",
+        "precio": "2800"
+    },
+    {
+        "id": 27,
+        "nombre": "10 x lata de galletas chica",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/lata-galleta-chica.jpg",
+        "precio": "1200"
+    },
+    {
+        "id": 28,
+        "nombre": "10 x lata de galletas grande",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/lata-galleta-grande.jpg",
+        "precio": "1400"
+    },
+    {
+        "id": 29,
+        "nombre": "15 x botella de vidrio de 250 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-expres.jpg",
+        "precio": "1600"
+    },
+    {
+        "id": 30,
+        "nombre": "15 x botella de vidrio de 330 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-330.jpg",
+        "precio": "1760"
+    },
+    {
+        "id": 31,
+        "nombre": "15 x botella de vidrio de 500 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-500.jpg",
+        "precio": "2400"
+    },
+    {
+        "id": 32,
+        "nombre": "15 x botella de vidrio de 750 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-750.jpg",
+        "precio": "3040"
+    },
+    {
+        "id": 33,
+        "nombre": "15 x botella de vidrio de 1000 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-litro.jpg",
+        "precio": "3520"
+    },
+    {
+        "id": 34,
+        "nombre": "15 x botella de vidrio de vino 1000 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vino-litro.jpg",
+        "precio": "4000"
+    },
+    {
+        "id": 35,
+        "nombre": "15 x botella de vidrio aceite de 250 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-aceite-250.jpg",
+        "precio": "2880"
+    },
+    {
+        "id": 36,
+        "nombre": "15 x botella de vidrio aceite de 500 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-aceite-500.jpg",
+        "precio": "4000"
+    },
+    {
+        "id": 37,
+        "nombre": "15 x botella de vidrio de 1000 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/botella-vidrio-aceite-litro.jpg",
+        "precio": "4800"
+    },
+    {
+        "id": 38,
+        "nombre": "15 x envase de crema lata",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-crema-laa.jpg",
+        "precio": "1600"
+    },
+    {
+        "id": 39,
+        "nombre": "15 x envase de crema 200ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-crema-tubo.jpg",
+        "precio": "1920"
+    },
+    {
+        "id": 40,
+        "nombre": "15 x envase de crema 500ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-crema-750.jpg",
+        "precio": "2880"
+    },
+    {
+        "id": 41,
+        "nombre": "15 x envase de detergente 3lt",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-detergente.jpg",
+        "precio": "1440"
+    },
+    {
+        "id": 42,
+        "nombre": "15 x envase de jarabe",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-jarabe.jpg",
+        "precio": "800"
+    },
+    {
+        "id": 43,
+        "nombre": "15 x envase de remedio",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-remedio.jpg",
+        "precio": "1280"
+    },
+    {
+        "id": 44,
+        "nombre": "15 x envase de shampoo con dosificador",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-shampoo.jpg",
+        "precio": "1920"
+    },
+    {
+        "id": 45,
+        "nombre": "15 x envase de shampoo de 100ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/envase-shampoo-100.jpg",
+        "precio": "1280"
+    },
+    {
+        "id": 46,
+        "nombre": "15 x frasco de perfume de 30 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-30.jpg",
+        "precio": "2400"
+    },
+    {
+        "id": 47,
+        "nombre": "15 x frasco de perfume de 50 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-50.jpg",
+        "precio": "2880"
+    },
+    {
+        "id": 48,
+        "nombre": "15 x frasco de perfume de 100 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-100.jpg",
+        "precio": "3520"
+    },
+    {
+        "id": 49,
+        "nombre": "15 x frasco de perfume de 200 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-perfume-200.jpg",
+        "precio": "4000"
+    },
+    {
+        "id": 50,
+        "nombre": "15 x frasco de serum de 30 ml",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-serum.jpg",
+        "precio": "2400"
+    },
+    {
+        "id": 51,
+        "nombre": "15 x frasco de vidrio 50 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-50.jpg",
+        "precio": "2400"
+    },
+    {
+        "id": 52,
+        "nombre": "15 x frasco de vidrio 100 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-100.jpg",
+        "precio": "2720"
+    },
+    {
+        "id": 53,
+        "nombre": "15 x frasco de vidrio 250 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-250.jpg",
+        "precio": "3680"
+    },
+    {
+        "id": 54,
+        "nombre": "15 x frasco de vidrio 500 cc",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/frasco-vidrio-500.jpg",
+        "precio": "4480"
+    },
+    {
+        "id": 55,
+        "nombre": "15 x lata de galletas chica",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/lata-galleta-chica.jpg",
+        "precio": "1920"
+    },
+    {
+        "id": 56,
+        "nombre": "15 x lata de galletas grande",
+        "descripcion": "Los productos deben encontrarse en perfectas condiciones, puede presentar ligeras marcas de uso, pero no debe afectar su funcionamiento ni su estética general. Así contribuimos al cuidado del medio ambiente y le damos una segunda oportunidad.",
+        "imagen": "assets/images/productos/lata-galleta-grande.jpg",
+        "precio": "2240"
+    }
+]

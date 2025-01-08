@@ -1,0 +1,113 @@
+/* Estilo general */
+ion-content {
+    --background: #e7ffcf;  /* Fondo con el color #e7ffcf */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+ion-title {
+    font-family: 'Poppins', sans-serif;   /* Usamos la fuente Poppins, si ya la incluimos desde Google Fonts */
+    font-size: 25px;                      /* Aumentamos el tamaño de la fuente */
+    font-weight: bold;                    /* Hacemos la fuente más gruesa */
+    color: #000000;                       /* Color azul para el título */
+    text-align: center;                   /* Centrado del título */
+    margin: 0;                            /* Eliminamos márgenes innecesarios */
+    padding: 10px;                        /* Añadimos un poco de padding para espacio */
+}
+
+/* Contenedor de la lista de productos */
+ion-grid {
+    width: 100%;
+    margin-top: 20px; /* Espacio superior entre el buscador y la lista */
+}
+
+/* Estilo de las tarjetas de productos */
+ion-card {
+    --border-radius: 15px;  /* Bordes redondeados para las tarjetas */
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    margin-bottom: 20px;  /* Espacio inferior entre tarjetas */
+    height: 350px; /* Fijamos una altura para las tarjetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido dentro de la tarjeta esté bien distribuido */
+}
+
+/* Estilo de las imágenes dentro de las tarjetas */
+ion-card img {
+    width: 100%;   /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 200px;  /* Establece una altura fija para la imagen */
+    object-fit: cover; /* Mantiene la relación de aspecto de la imagen */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Estilo de los textos dentro de las tarjetas */
+ion-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+ion-card-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+ion-card-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #040404;
+    margin: 5px 0;
+}
+
+/* Estilo del buscador */
+.search-bar {
+    --background: white;         /* Fondo blanco */
+    --border-radius: 30px;       /* Bordes redondeados */
+    --border-color: black;       /* Bordes negros */
+    --border-width: 10px;         /* Borde más grueso */
+    --height: 55px;              /* Aumento la altura para hacerlo más grande */
+    --padding-start: 20px;       /* Espaciado a la izquierda */
+    --padding-end: 20px;         /* Espaciado a la derecha */
+    font-size: 18px;             /* Aumento el tamaño de la fuente */
+    margin-top: 40px;            /* Espacio superior */
+    margin-bottom: 20px;         /* Espacio inferior */
+    width: 100%;                  /* Ocupa el 80% del ancho de la pantalla */
+    max-width: 500px;            /* Limita el tamaño máximo */
+}
+
+
+/* Estilo para el texto dentro del buscador */
+.search-bar .searchbar-input {
+    font-size: 14px;
+}
+
+/* Estilo de las filas y columnas en la lista de productos */
+ion-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ion-col {
+    padding: 10px; /* Espaciado entre los productos */
+    width: 50%; /* Esto asegura que cada columna de producto ocupe la mitad del espacio disponible */
+}
+
+/* Estilo para los enlaces de "Comprar ahora" o detalles de producto */
+ion-card-content a {
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+/* Ajuste de márgenes */
+ion-row {
+    margin-bottom: 20px;  /* Espacio entre las filas de productos */
+}

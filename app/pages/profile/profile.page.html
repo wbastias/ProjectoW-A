@@ -1,0 +1,37 @@
+<ion-header [translucent]="true" class="update-content">
+  <ion-toolbar>
+    <div class="header-container">
+      <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png" class="header-image" />
+      <div class="header-text">
+        <p>Usuario: {{objeto?.nombre}} {{objeto?.apellido}} | Correo: {{mdl_email}}</p>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="header">
+    <div class="titulo">Actualiza tu Información</div>
+    <p class="subTitulo">Ingrese sus nuevos datos</p>
+  </div>
+
+  <div>
+    <div class="ion-padding">
+      <ion-item>
+        <ion-label position="floating">Contraseña Actual</ion-label>
+        <ion-input [(ngModel)]="mdl_password" type="password" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Nueva Contraseña</ion-label>
+        <ion-input [(ngModel)]="mdl_newPassword" type="password" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Telefono +56</ion-label>
+        <ion-input [(ngModel)]="mdl_career" required></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" class="actualizar-button" (click)="updateUser()">Actualizar</ion-button>
+      <ion-button expand="block" class="cancelar-button" (click)="navigateHome()">Cancelar</ion-button>
+    </div>
+  </div>
+</ion-content>

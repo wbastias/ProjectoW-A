@@ -1,0 +1,124 @@
+/* Estilo general */
+ion-content {
+    --background: #e2f4fd;  /* Fondo con el color #e2f4fd */
+    display: flex;  /* Usamos flexbox para alinear el contenido */
+    justify-content: center;  /* Centra el contenido en el eje vertical */
+    align-items: center;      /* Centra el contenido en el eje horizontal */
+    height: 100%;              /* Asegura que ocupe el 100% de la altura de la pantalla */
+}
+
+/* Contenedor principal */
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Asegura que los elementos estén alineados al principio */
+    width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
+    max-width: 400px; /* Limita el ancho para que no ocupe toda la pantalla */
+    padding: 20px;
+    margin-top: 20px; /* Un poco de margen superior */
+}
+
+/* Imagen de la parte superior */
+.login-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-image {
+    width: 200px;  /* Ajusta el tamaño de la imagen según lo que necesites */
+    height: auto;
+    margin-top: 150px; /* Mueve la imagen un poco más abajo */
+}
+
+/* Estilo de los inputs */
+ion-item {
+    margin-bottom: 20px;
+    position: relative;  /* Necesario para la animación del label */
+    --min-height: 50px; /* Ajuste de altura de los inputs */
+}
+
+/* Estilo de los labels */
+ion-label {
+    font-weight: bold;  /* Hacer los labels más gruesos */
+    font-size: 14px; /* Tamaño del texto del label */
+    color: #666; /* Color gris claro de los labels */
+    transition: all 0.2s ease; /* Transición suave para el movimiento */
+}
+
+/* Estilo del input */
+ion-input {
+    --border-radius: 10px; /* Bordes redondeados */
+    --border-color: #ddd;  /* Borde gris claro */
+    --border-width: 1px;   /* Grosor del borde */
+    --height: 10px;        /* Altura de los campos de entrada */
+    --padding-start: 10px; /* Menos espacio a la izquierda */
+    --padding-end: 10px;   /* Menos espacio a la derecha */
+    --font-size: 14px;     /* Tamaño de la fuente del texto ingresado */
+    --color: #333;         /* Color del texto ingresado */
+}
+
+/* Hacer que el label se desplace hacia arriba cuando el input tiene valor o está enfocado */
+ion-input:focus + ion-label,
+ion-input:not(:empty) + ion-label {
+    font-size: 12px;      /* Tamaño del texto reducido cuando se mueve el label */
+    color: #1877f2;       /* Color azul cuando está enfocado o tiene valor */
+    top: -8px;            /* Mover el label hacia arriba */
+}
+
+/* Estilo del botón de "Ingresar" */
+ion-button {
+    --background: #1877f2;  /* Color azul de Facebook */
+    --color: white;
+    --border-radius: 30px;   /* Botón ovalado */
+    --height: 50px;          /* Altura del botón */
+    --width: 100%;           /* Asegura que ocupe todo el ancho */
+    margin-top: 20px;        /* Espacio superior */
+}
+
+/* Estilo de los enlaces de "Olvidaste tu contraseña" */
+.login-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #1877f2; /* Color azul */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.forgot-password a {
+    color: #1877f2;
+}
+
+.forgot-password a:hover {
+    text-decoration: none;
+}
+
+.create-button{
+    margin-top: 20px;
+    --border-radius: 30px; /* Ovalado */
+    --border-width: 2px;
+    --border-color: #1877f2;
+    --background: transparent;  /* Fondo transparente */
+    --color: #1877f2; /* Color de las letras */
+    --height: 50px; /* Ajusta la altura para hacerlo más ovalado */
+}
+
+.create {
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.create a {
+    color: #1877f2;
+}
+
+.create a:hover {
+    text-decoration: none;
+}

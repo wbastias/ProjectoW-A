@@ -1,0 +1,117 @@
+/* Estilo general */
+ion-content {
+    --background: #e7ffcf;  /* Fondo verde */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea todo el contenido al centro */
+    justify-content: flex-start; /* Asegura que el contenido se quede en la parte superior */
+}
+
+/* Estilo del header */
+.update-content .header-text {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 100%;  /* Asegura que ocupe todo el ancho del header */
+}
+
+.header-left {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.header-image {
+    width: 60px;
+    height: auto;
+}
+
+.header-right {
+    flex: 1;
+    text-align: left;
+}
+
+.header-right p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.header-right p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1877f2;
+}
+
+.header-right p:last-child {
+    font-size: 16px;
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+/* Estilo para la sección del título en el contenido */
+.home-content .header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulo {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #2E7D32;  /* Color del título */
+    letter-spacing: 2px;
+}
+
+.subTitulo {
+    font-size: 25px;
+    color: #388E3C;  /* Color del subtítulo */
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Estilo de los botones */
+.create {
+    width: 100%;  /* Asegura que los botones ocupen todo el ancho disponible */
+    display: flex;
+    justify-content: center;  /* Centra los botones */
+    margin-bottom: 20px; /* Espaciado entre botones */
+}
+
+ion-button {
+    margin: 10px;  /* Espacio entre los botones */
+    border-radius: 50px;  /* Botones ovalados */
+    font-weight: bold;
+    height: 50px;  /* Tamaño uniforme de los botones */
+    padding: 0 20px;  /* Añadir padding para ajustar el tamaño */
+    width: 80%;  /* Ancho de los botones (puedes ajustar según sea necesario) */
+}
+
+/* Estilo de los botones "Actualizar Datos" y "Vender Productos" */
+.action-button {
+    background-color: #4CAF50;
+    --color: #FFFFFF;
+    --border-radius: 25px;
+    --padding-start: 20px;
+    --padding-end: 20px;
+}
+
+/* Botón de "Cerrar Sesión" */
+.cerrar-sesion {
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    --border-radius: 25px;
+    --padding-start: 20px;
+    --padding-end: 20px;
+}
+
+/* Elimina el borde azul al hacer clic en cualquier botón */
+ion-button:focus {
+    outline: none;
+    box-shadow: none;
+}

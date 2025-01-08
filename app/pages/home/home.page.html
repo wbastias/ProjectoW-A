@@ -1,0 +1,30 @@
+<ion-header [translucent]="true" class="update-content">
+  <ion-toolbar>
+    <div class="header-text">
+      <div class="header-left">
+        <img src="assets/images/cerdito.png" class="header-image" />
+      </div>
+      <div class="header-right">
+        <p>{{nombre}} {{apellido}}</p>
+        <p>Este mes, ganaste ${{montoGanado}} por vender tus residuos. ¡Sigue sumando y ayudando al planeta!</p>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="home-content">
+  <div class="header">
+    <div class="titulo">Home</div>
+    <p class="subTitulo">Elige una opción para continuar</p>
+  </div>
+
+  <div class="create">
+    <ion-button fill="clear" class="action-button" (click)="update()">Actualizar Datos</ion-button>
+  </div>
+  <div class="create">
+    <ion-button fill="clear" class="action-button" (click)="getInstitutions()">Vender Productos</ion-button>
+  </div>
+  <div class="create">
+    <ion-button fill="clear" class="cerrar-sesion" (click)="cerrarSesion()">Cerrar Sesión</ion-button>
+  </div>
+</ion-content>

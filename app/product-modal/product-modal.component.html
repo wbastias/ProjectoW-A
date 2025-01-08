@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <!-- No incluimos el botón "Cerrar" aquí -->
+    </ion-buttons>
+    <ion-title class="product-title">{{ product?.nombre }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!orderGenerated" class="product-details">
+    <img [src]="product?.imagen" alt="Product Image" class="product-image"/>
+    <ion-card class="product-card">
+      <ion-card-subtitle class="product-subtitle">{{ product?.nombre }}</ion-card-subtitle>
+      <ion-card-title class="product-price">$ {{ product?.precio }}</ion-card-title>
+      <ion-card-content class="product-description">
+        <p>{{ product?.descripcion }}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div *ngIf="orderGenerated" class="order-message">
+    <ion-label>Orden de compra generada</ion-label>
+  </div>
+
+  <!-- Contenedor de botones al final -->
+  <div class="buttons-container">
+    <ion-button fill="clear" color="primary" (click)="generateOrder()" *ngIf="!orderGenerated" class="action-button">
+      Generar Orden de Compra
+    </ion-button>
+    <ion-button fill="clear" color="danger" (click)="close()" class="action-button">
+      Cerrar
+    </ion-button>
+  </div>
+</ion-content>

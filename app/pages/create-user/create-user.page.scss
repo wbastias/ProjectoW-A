@@ -1,0 +1,108 @@
+/* Estilo general */
+ion-content {
+    --background: #e2f4fd;  /* Fondo con el color #e2f4fd */
+}
+
+/* Contenedor del encabezado */
+.header {
+    text-align: center;
+    margin-top: 40px; /* Espacio superior */
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1877f2; /* Color azul */
+}
+
+.subTitulo {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Estilo de los inputs */
+ion-item {
+    margin-bottom: 20px;
+    position: relative;  /* Necesario para la animación del label */
+    --min-height: 50px; /* Ajuste de altura de los inputs */
+}
+
+/* Estilo de los labels */
+ion-label {
+    font-weight: bold;  /* Hacer los labels más gruesos */
+    font-size: 14px; /* Tamaño del texto del label */
+    color: #666; /* Color gris claro de los labels */
+    transition: all 0.2s ease; /* Transición suave para el movimiento */
+}
+
+/* Estilo del input */
+ion-input {
+    --border-radius: 10px; /* Bordes redondeados */
+    --border-color: #ddd;  /* Borde gris claro */
+    --border-width: 1px;   /* Grosor del borde */
+    --height: 10px;        /* Altura de los campos de entrada */
+    --padding-start: 10px; /* Menos espacio a la izquierda */
+    --padding-end: 10px;   /* Menos espacio a la derecha */
+    --font-size: 14px;     /* Tamaño de la fuente del texto ingresado */
+    --color: #333;         /* Color del texto ingresado */
+}
+
+/* Hacer que el label se desplace hacia arriba cuando el input tiene valor o está enfocado */
+ion-input:focus + ion-label,
+ion-input:not(:empty) + ion-label {
+    font-size: 12px;      /* Tamaño del texto reducido cuando se mueve el label */
+    color: #1877f2;       /* Color azul cuando está enfocado o tiene valor */
+    top: -8px;            /* Mover el label hacia arriba */
+}
+
+/* Hacer los inputs más delgados */
+ion-item {
+    --width: 80%;  /* Reducir el ancho de los inputs */
+    margin: 0 auto; /* Centrar los inputs en la página */
+}
+
+/* Estilo de los botones */
+ion-button {
+    --background: #1877f2;  /* Color azul de Facebook */
+    --color: white;
+    --border-radius: 30px;   /* Botón ovalado */
+    --height: 50px;          /* Altura del botón */
+    --width: 100%;           /* Asegura que ocupe todo el ancho */
+    margin-top: 20px;        /* Espacio superior */
+}
+
+/* Enlace de "¿Ya tienes una cuenta?" */
+.acciones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.password {
+    font-size: 14px;
+    color: #1877f2; /* Color azul */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.password:hover {
+    text-decoration: none;
+}
+
+/* Espaciado y alineación de los campos */
+.ion-padding {
+    padding: 20px;
+}
+
+/* Reglas generales para todo el formulario */
+ion-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Espacio adicional entre las filas */
+}
+
+ion-col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Espacio entre las columnas */
+}

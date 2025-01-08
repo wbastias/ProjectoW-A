@@ -1,0 +1,123 @@
+/* Estilo general */
+ion-content {
+    --background: #f9f9f9;  /* Fondo gris claro para un aspecto limpio */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Título del producto */
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E7D32;  /* Color verde para el título */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Contenedor de detalles del producto */
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Imagen del producto */
+  .product-image {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+  }
+  
+  /* Estilo para el card del producto */
+  .product-card {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+  }
+  
+  /* Subtítulo del producto */
+  .product-subtitle {
+    font-size: 16px;
+    color: #555; /* Gris oscuro para el subtítulo */
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  /* Precio del producto */
+  .product-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3880ff; /* Color azul para el precio */
+    margin: 10px 0;
+  }
+  
+  /* Descripción del producto */
+  .product-description {
+    font-size: 14px;
+    color: #777; /* Gris claro para el texto */
+    margin-top: 10px;
+  }
+  
+  /* Estilo del contenedor de botones */
+  .buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  /* Espacio entre los botones */
+  }
+  
+  /* Estilo para los botones */
+  .action-button {
+    width: 90%;
+    max-width: 350px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  /* Botón de "Generar Orden de Compra" */
+  .action-button[color="primary"] {
+    background-color: #4CAF50;  /* Fondo verde */
+    --color: white; /* Texto blanco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    transition: background-color 0.3s;
+  }
+  
+  .action-button[color="primary"]:hover {
+    background-color: #388E3C;  /* Color verde más oscuro al pasar el mouse */
+  }
+  
+  /* Botón de "Cerrar" */
+  .action-button[color="danger"] {
+    background-color: transparent;
+    border: 2px solid #e74c3c; /* Borde rojo */
+    color: #e74c3c; /* Texto rojo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    transition: background-color 0.3s;
+  }
+  
+  .action-button[color="danger"]:hover {
+    background-color: #f2dede;  /* Fondo rojo claro al pasar el mouse */
+  }
+  
+  /* Mensaje cuando la orden está generada */
+  .order-message {
+    text-align: center;
+    font-size: 18px;
+    color: #4CAF50;  /* Verde para indicar éxito */
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

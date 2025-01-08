@@ -1,0 +1,116 @@
+/* Estilo general */
+ion-content {
+    --background: #e7ffcf;  /* Fondo verde */
+    display: flex;  /* Usamos flexbox para alinear el contenido */
+    justify-content: center;  /* Centra el contenido en el eje vertical */
+    align-items: center;      /* Centra el contenido en el eje horizontal */
+    height: 100%;              /* Asegura que ocupe el 100% de la altura de la pantalla */
+    justify-content: flex-start; 
+}
+
+/* Contenedor principal */
+.update-content .header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-image {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.header-text p {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-text p:first-child {
+    color: #1877f2;
+}
+
+/* Estilo para la sección del título en el contenido */
+.home-content .header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulo {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #2E7D32;  /* Color del título */
+    letter-spacing: 2px;
+}
+
+.subTitulo {
+    font-size: 20px;
+    color: #388E3C;  /* Color del subtítulo */
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Estilo de los inputs */
+ion-item {
+    margin-bottom: 20px;
+    position: relative;  /* Necesario para la animación del label */
+    --min-height: 50px; /* Ajuste de altura de los inputs */
+}
+
+/* Estilo de los labels */
+ion-label {
+    font-weight: bold;  /* Hacer los labels más gruesos */
+    font-size: 14px; /* Tamaño del texto del label */
+    color: #666; /* Color gris claro de los labels */
+    transition: all 0.2s ease; /* Transición suave para el movimiento */
+}
+
+/* Estilo del input */
+ion-input {
+    --border-radius: 10px; /* Bordes redondeados */
+    --border-color: #ddd;  /* Borde gris claro */
+    --border-width: 1px;   /* Grosor del borde */
+    --height: 10px;        /* Altura de los campos de entrada */
+    --padding-start: 10px; /* Menos espacio a la izquierda */
+    --padding-end: 10px;   /* Menos espacio a la derecha */
+    --font-size: 14px;     /* Tamaño de la fuente del texto ingresado */
+    --color: #333;         /* Color del texto ingresado */
+}
+
+/* Hacer que el label se desplace hacia arriba cuando el input tiene valor o está enfocado */
+ion-input:focus + ion-label,
+ion-input:not(:empty) + ion-label {
+    font-size: 12px;      /* Tamaño del texto reducido cuando se mueve el label */
+    color: #1877f2;       /* Color azul cuando está enfocado o tiene valor */
+    top: -8px;            /* Mover el label hacia arriba */
+}
+
+/* Estilo del botón de "Actualizar" */
+.actualizar-button {
+    --background: #4CAF50;  /* Fondo verde */
+    --color: white;         /* Texto blanco */
+    --border-radius: 30px;  /* Bordes redondeados */
+    --height: 50px;         /* Altura del botón */
+    margin-top: 20px;       /* Espacio superior */
+}
+
+/* Estilo del botón de "Cancelar" */
+.cancelar-button {
+    --background: transparent;  /* Fondo transparente */
+    --color: #e74c3c;            /* Color del texto rojo */
+    --border-width: 5px;         /* Borde rojo */
+    --border-color: #e74c3c;     /* Color del borde rojo */
+    --border-radius: 30px;       /* Bordes redondeados */
+    --height: 50px;              /* Altura del botón */
+    margin-top: 20px;            /* Espacio superior */
+}
+
+/* Elimina el borde azul al hacer clic en cualquier botón */
+ion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
